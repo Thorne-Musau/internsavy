@@ -75,7 +75,6 @@ means_k = KMeans(n_clusters=5, random_state=0)
 means_k.fit(X)
 labels = means_k.labels_
 centroids = means_k.cluster_centers_
-As we can observe, the K-means algorithm has already finished its work and now it's time to plot the results we obtained by it so we can visualize the different clusters and analyze them.
 
 #Create a 3d plot to view the data sepparation made by Kmeans
 trace1 = go.Scatter3d(
